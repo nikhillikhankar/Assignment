@@ -1,14 +1,16 @@
 package Assignment2;
 
  class Triangle {
-	 int a,b,c;
+	 int a=3,b=4,c=5;
+	 int h=5;
 	  public double getArea()
 	  {
-	    double s = (a+b+c)/2.0;
-	    return Math.pow((s*(s-a)*(s-b)*(s-c)),0.5);
+	    double s = (b*h)/2;
+	    return s;
 	  }
-	  public double getPerimeter(){
-	    return (a+b+c)/2.0;
+	  public double getPerimeter()
+	  {
+	    return (a+b+c);
 	  }
 	}
 
@@ -21,9 +23,9 @@ public class Program3{
 		t.a= 3;
 		t.b= 4;
 		t.c= 5;
-		
-		System.out.println(t.getArea());
-		System.out.println(t.getPerimeter());
+		t.h=5;
+		System.out.println("Area of Triangle is: " + t.getArea());
+		System.out.println("Perimeter of Triaangle is: "+ t.getPerimeter());
 		
 		
 	}
