@@ -1,3 +1,11 @@
+//14.The Matrix class has methods for each of the following:
+// 	1 - get the number of rows
+//	2 - get the number of columns
+//	3 - set the elements of the matrix at given position (i,j)
+//	4 - adding two matrices. If the matrices are not addable, "Matrices cannot be added" will be displayed.
+//	5 - multiplying the two matrices
+//	Download Our A
+
 package Assignment2;
 
 class Matrix {
